@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+#datetime-picker {
+  width: 204px;
+  height: 28px;
+}
+
+.timer {
+  display: flex;
+}
+
+.field:not(:first-child) {
+  margin-left: 24px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  padding-top: 10px;
+}
+
+.field > .value {
+  font-size: 34px;
+  font-weight: 500;
+  color: #696969;
+}
+
+.field > .label {
+  font-size: 12px;
+}
